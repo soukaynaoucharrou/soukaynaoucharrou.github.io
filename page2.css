@@ -1,0 +1,115 @@
+body{
+    background-COLOR:rgb(245, 214, 233);
+}
+#idd1{
+    color:rgb(224, 14, 154);
+    text-align:center ;
+    font-size:xx-large;
+    text-decoration: underline;
+}
+
+.cll1{ margin-left:20%;
+    margin-right: 20%;
+    width: 50%;
+    height: 40%;
+        background: red;
+        transition: width 5s;
+}
+.cll1:hover {
+    width: 70%;
+  }
+ .cll2{ 
+    margin-right: 7%;
+width:20%;
+height:10%;}
+.cll3{ 
+    margin-right:7%;
+width:35%;
+height:50%;}
+#idd2 {
+    animation-duration:20s;
+    animation-name: glissement;
+    animation-iteration-count: infinite;
+  }
+.cll4{
+    animation-direction: normal;
+}
+
+@keyframes glissement {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
+}
+#id22{margin-left:30%;
+    color:black;
+text-shadow:2px 2px 10px red ;
+font-size: xx-large;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+      div.cl5{
+        width: 40%;
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(255, 255, 255), 0 6px 20px  rgba(241, 3, 230);
+      }
+      
+      img.cll5{width: 50%;
+        height: 40%;;
+          }
+          .c1{
+          border-style: dotted;
+          background-color:rgb(211, 129, 129) ;
+          text-align: center;
+          color:black;
+        text-shadow: 2px 2px 8px red;}
+        .cl6::selection{
+          color:rgb(20, 11, 153);
+          background-color: rgb(255, 0, 212);
+        }
+        .cll6{margin-left:40%;
+        width:80%;}
+        .cll7{margin-left:70%;
+        width:80%;}
+
+      .c2{
+          border-style:double solid;
+          border-color: black;
+          background-color: #5dbeae;
+          text-align: center;
+          color:rgb(0, 54, 116);
+        text-shadow: 2px 2px 8px rgb(23, 182, 182);}
+        h5{color: red;}
+          .cl8{color:rgb(42, 148, 1)}
+      .cl8::selection{ 
+          background-color: yellow;
+      color:rgb(83, 29, 4);}
+      .cl4{
+        color:rgb(68, 2, 68);
+        text-decoration: underline;
+        text-align: center;
+    }
+    ul{
+      list-style-type:none ;
+      margin: 0px;;
+      padding: 0px;
+      overflow: hidden;
+      background-color:rgb(68, 2, 68);
+    }
+    li{
+      float: left;
+    }
+    li a{
+      display: inline-block;
+      color: white;
+      text-align: center;
+      padding: 20px 20px;
+      text-decoration: none;
+    }
+    ul li a {margin:0 30px;
+    }
+      

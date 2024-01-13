@@ -1,0 +1,86 @@
+#id1{
+    color:rosybrown;
+    text-align:center ;
+    font-size:xx-large;
+    text-decoration: underline;
+}
+ul{
+	list-style-type:none ;
+	margin: 0px;;
+	padding: 0px;
+	overflow: hidden;
+	background-color:rgb(68, 2, 68);
+}
+li{
+	float: left;
+}
+li a{
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 20px 20px;
+	text-decoration: none;
+}
+ul li a {margin:0 30px;
+}
+
+.cl1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    height:400px;
+}
+.cl2{
+     top:10px ;
+    left:200px;
+    right:100px;
+    width:400px; 
+    height:100px; 
+    position:relative;
+    background-color:rosybrown ;
+    border-style:solid;
+}
+  .cl3{
+    color:blueviolet;
+    text-decoration: underline;
+   text-decoration-style: double  ;
+    text-decoration-color: rgb(68, 2, 68);
+  }
+  #id2{
+    color:black;
+    text-shadow: 2px 3px rgb(255, 182, 255);
+  }
+  table {
+    border:3px solid ;
+    width:100%;
+    height:20%;
+  }
+  th{
+    background-color:rgb(255, 0, 170);
+    border :3px solid;
+    width:100px;
+    height:20px;
+  }
+  td{ border:3px solid;
+    width:150px;
+    height:10px;
+    background-color:blanchedalmond;
+}
+.first1::first-line{
+    color:red ;
+ }
+ .first2::first-letter{
+    color: rgb(132, 0, 255) ;
+    font-size: 2cm ;
+    font-size: large;
+}
+.first3::selection{
+    color:red ;
+    background-color: yellow;
+}
+.cl4{
+    color:rgb(68, 2, 68);
+    text-decoration: underline;
+    text-align: center;
+}
